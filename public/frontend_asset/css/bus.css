@@ -1,0 +1,45 @@
+        .checking {
+            padding: 20px;
+
+        }
+
+        .checking .check {
+            margin-right: 10px;
+
+        }
+        .checking  .last input {
+            background-color: orangered;
+            width: 120px;
+
+        }
+        .checking .check input {
+            padding: 10px;
+
+        }
+        .checking .check_date {
+            width: 200px;
+            margin-left: 15px;
+        }
+        .checking .check_content {
+            padding: 20px;
+            background: #000;
+            opacity: .5;
+
+        }
+        .left-menu  li {
+            margin-top: 20px; 
+
+        }
+        .menubar ul li a {
+            color: black;
+            opacity: .5;
+        }
+        .check_header {
+            padding: 20px;
+            text-align: center;
+        }
+        .check_header h1{
+            font-size: 40px;
+            color: #FFA280;
+            margin-bottom: -5px;
+        }

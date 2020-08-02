@@ -1,0 +1,83 @@
+label{display: block;}
+ button{
+   color: transparent;
+}
+button:hover {
+    color: black;
+}
+    .cust-checkbox {
+    display: none;
+    }
+.cust-checkbox + button{
+    // background-image:url(images/available_seat_img.gif);
+    background-color: #FFA280;
+
+    height: 25px;
+    width: 25px;
+    display:block;
+    padding: 0 0 0 0px;
+}
+.reserved .cust-checkbox + button{
+    background-color: #ccc;
+}
+.reserved .cust-checkbox + button{
+    background-color: #ccc;
+}
+.first-class .cust-checkbox + button{
+    background-color: #FFA280;
+}
+.selected .cust-checkbox + button{
+    background-color: blue;
+}
+.cust-checkbox:checked + button{
+    height: 25px;
+    width: 25px;
+    display:block;
+    padding: 0 0 0 0px;
+}
+/*    .cust-checkbox:disabled + button{
+    background: red;
+    height: 30px;
+    width: 30px;
+    display:block;
+    padding: 0 0 0 0px;
+    }*/
+.seats{
+
+   
+    padding:  15px;max-width: 550px;
+    margin-left: 330px;
+}
+.info{     padding: 0 15px;
+           max-width: 530px;
+           margin: 50px auto 0
+}
+
+
+.info  .cust-checkbox  {
+    display: none;
+   
+}
+.info   button {
+     cursor: not-allowed;
+   
+}
+
+/*************************/ 
+.seat_plan {
+    display: block;
+margin: 0;
+padding: 0;
+}
+.seat_plan li {
+    list-style: none;
+display: inline-block;
+padding: 2px 5px;
+margin: 4px 2px;
+background: #ccc;
+}
+ul.seat_plan li:nth-child(3n+3) {  
+margin-left: 20px;
+
+}
+
